@@ -1,8 +1,8 @@
 module.exports=function(app){
-    // var dataSource=app.dataSources.db;
-    // dataSource.autoupdate(null,function(err){
-    //     if (err) throw err;
-    // });
+    var dataSource=app.dataSources.bricksdb;
+    dataSource.autoupdate(null,function(err){
+        if (err) throw err;
+    });
 };
 
 // module.exports=function(app){

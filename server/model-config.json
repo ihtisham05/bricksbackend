@@ -14,25 +14,25 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "bricksdb"
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "bricksdb",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "bricksdb",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "bricksdb",
     "public": false,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "bricksdb",
     "public": false
   }
 }
