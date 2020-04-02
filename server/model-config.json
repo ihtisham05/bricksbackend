@@ -34,5 +34,13 @@
   "Role": {
     "dataSource": "bricksdb",
     "public": false
+  },
+  "customUser": {
+    "dataSource": "bricksdb",
+    "public": true
+  },
+  "property": {
+    "dataSource": "bricksdb",
+    "public": true
   }
 }

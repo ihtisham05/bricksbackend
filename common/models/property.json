@@ -1,0 +1,44 @@
+{
+  "name": "property",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "area": {
+      "type": "number",
+      "required": true
+    },
+    "totalbricks": {
+      "type": "number",
+      "required": true
+    },
+    "price": {
+      "type": "number",
+      "required": true
+    },
+    "image1": {
+      "type": "string",
+      "required": true
+    },
+    "image2": {
+      "type": "string"
+    },
+    "image3": {
+      "type": "string"
+    },
+    "remainingbricks": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

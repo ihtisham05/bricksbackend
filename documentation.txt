@@ -1,0 +1,59 @@
+POST api/customUsers
+request 
+{
+  "username": "1231233",
+  "email": "test@123",
+"address":"xyz",
+"password":"abc123"
+}
+username m phone no send krna h  aur address ki field b add kr dy signup m 
+Response Body
+{
+  "address": "xyz",
+  "username": "1231233",
+  "email": "test@123",
+  "id": 1
+}
+
+
+-----------------------------------------------------
+POST api/customUsers/login
+{
+"email":"test@123",
+"password":"abc123"
+}
+Response Body
+{
+  "id": "MzupYCh0MJYnpn9GkZwlYmsJYXBt5yjJcXyrWPzOlwFdx0OmDTRaQr5JAIF4sOCp",
+  "ttl": 1209600,
+  "created": "2020-04-02T18:48:29.346Z",
+  "userId": 1
+}
+-----------------------------------------------------
+To get details of a logged in user
+GET api/customUsers/{id}
+{
+  "address": "xyz",
+  "realm": null,
+  "username": "1231233",
+  "email": "test@123",
+  "emailVerified": null,
+  "id": 1
+}
+------------------------------------------------------
+POST api/customUsers/logout
+Response
+204	
+------------------------------------------------------
+POST api/properties
+post porperty 
+{
+  "title": "string",
+  "area": 0,
+  "totalbricks": 0,
+  "price": 0,
+  "image1": "string",
+  "image2": "string",
+  "image3": "string",
+  "remainingbricks": 0
+}
